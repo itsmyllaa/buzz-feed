@@ -1,4 +1,5 @@
 # ProjetoBuzzfeed
+https://buzz-feed-blush.vercel.app/
 
 ![Captura de Tela 2025-04-13 às 18 45 17](https://github.com/user-attachments/assets/60a3a9b6-790c-4a2d-9a17-01ff0e2582fc)
 ![Captura de Tela 2025-04-13 às 18 46 11](https://github.com/user-attachments/assets/64226638-7431-4c47-bf4a-92797fb1e11c)
