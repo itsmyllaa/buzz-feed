@@ -1,0 +1,42 @@
+{
+  "title": "Qual é o seu perfil Tech?",
+  "questions": [
+    {
+      "question": "Qual linguagem você mais gosta?",
+      "options": [
+        { "alias": "backend", "name": "Java" },
+        { "alias": "frontend", "name": "JavaScript" },
+        { "alias": "fullstack", "name": "Python" }
+      ]
+    },
+    {
+      "question": "Qual sua IDE favorita?",
+      "options": [
+        { "alias": "frontend", "name": "VS Code" },
+        { "alias": "backend", "name": "IntelliJ IDEA" },
+        { "alias": "fullstack", "name": "Eclipse" }
+      ]
+    },
+    {
+      "question": "O que você prefere desenvolver?",
+      "options": [
+        { "alias": "frontend", "name": "Interfaces e animações" },
+        { "alias": "backend", "name": "APIs e banco de dados" },
+        { "alias": "fullstack", "name": "Um pouco de tudo!" }
+      ]
+    },
+    {
+      "question": "Qual dessas você não vive sem?",
+      "options": [
+        { "alias": "frontend", "name": "Figma" },
+        { "alias": "backend", "name": "Postman" },
+        { "alias": "fullstack", "name": "Terminal" }
+      ]
+    }
+  ],
+  "results": {
+    "frontend": "Você é um(a) Frontend Wizard! 🎨 Ama deixar tudo bonito, animado e responsivo!",
+    "backend": "Você é um(a) Backend Ninja! ⚙️ Prefere a lógica, performance e segurança do sistema.",
+    "fullstack": "Você é Fullstack Hero! 🚀 Faz de tudo um pouco e domina o campo inteiro!"
+  }
+}

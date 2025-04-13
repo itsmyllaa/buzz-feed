@@ -1,0 +1,25 @@
+<div class="quizz__container">
+
+  <div class="quizz_logo">
+    <img src="assets/imgs/logo.png" alt="" srcset="">
+    <h3>{{title}}</h3><p class="quiz-subtitle">Responda e descubra seu perfil Tech! 🌟</p>
+  </div>
+
+  <div *ngIf="!finished && questionSelected">
+
+    <p>{{ questionSelected?.question }}</p> <!-- Adicionei "?" para garantir que a propriedade não seja acessada se undefined -->
+
+    <div *ngFor="let answer of questionSelected?.options">
+      <button (click)="playerChoose(answer.alias)">
+        {{ answer.name }}
+      </button>
+    </div>
+  </div>
+
+  <!-- Tela final, após responder tudo -->
+  <div *ngIf="finished" class="final-screen">
+    <h2>Quiz finalizado!</h2>
+    <p>Clique no botão abaixo para ver seu resultado:</p>
+    <button (click)="submitQuiz()">Finalizar Quiz</button>
+  </div>
+</div>

@@ -1,0 +1,58 @@
+.home___container {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #ff8a00, #f72585);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.home___container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home___container p {
+  font-size: 1.2rem;
+}
+
+.start-button {
+  background: linear-gradient(90deg, #ff6f00, #ffcc00, #ff00aa, #9d00ff);
+  background-size: 400% 400%;
+  color: white;
+  font-weight: 600;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  animation: moveBackground 6s ease infinite, bounce 1.5s infinite;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: fit-content;
+  min-width: 180px;
+  margin: 0 auto;
+  display: block;
+}
+
+.start-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(255, 0, 170, 0.4);
+}
+
+@keyframes moveBackground {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}

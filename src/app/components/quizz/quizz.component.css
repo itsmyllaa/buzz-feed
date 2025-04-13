@@ -1,0 +1,85 @@
+body {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.quizz__container {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 3rem;
+  background: linear-gradient(135deg, #8e44ad, #ff6b00);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 127, 0.4);
+  text-align: center;
+  color: white;
+}
+
+.quizz_logo img {
+  max-width: 120px;
+  margin-bottom: 1rem;
+}
+
+.quizz_logo h3 {
+  font-size: 2rem;
+  color: #ffdd00;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.quiz-subtitle {
+  font-size: 1.2rem;
+  color: white; /* rosa choque */
+  text-align: center;
+  margin-top: 0.5rem;
+  animation: pulse 2s infinite;
+  font-weight: 600;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+}
+
+button {
+  background: linear-gradient(to right, #ff007f, #ffdd00);
+  color: #1c1c1c;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #ff007f;
+}
+
+.final-screen {
+  margin-top: 2rem;
+}
